@@ -1,1 +1,35 @@
 This is my first python file
+KLEIT SAMSUNG PYTHON TRAINING DECEMBER-2024
+
+DAY1 MONDAY 09-12-2024
+
+1. Create Github Account
+2. Create new Repo
+	1. Click on "+" on top right and Click New Repository
+	2. Give repo name, keep the repo public, add the necessary description and slect the check box "add-readme file" and then click "create repository"
+My Repo Link:
+https://github.com/neelmyna/kleit_dec2024
+
+3. Organising and Arranging Files and Folders in our System:
+	1. Create new folder named "software" in C drive
+	2. Create following folders inside "C:\software"
+		git, pyhton, vs_code, notepad_pp, mingw, jdk, eclipse, mysql, postman, node etc.
+	3. Download all the installer files and cut and paste them from "downloads" folder into respective folder.
+	4. Now Install them one by one by using double click
+	5. Add the path of the Applications to "environment variables" which we wish to use the CLI from any path of our choice.
+	6. Check if the CLIs are working in the path of your choice.
+	
+4. Cofigure your github account on your system.
+	$ git config --global user.name "neelmyna"
+	$ get config --global user.email "nithinemail@gmail.com"
+
+5. Steps to create PAT (personal access token)
+	1. Click on Profile Pic (Right Top most corner) -> Click settings
+	2. In new page, sroll down and bottom left corner -> Click Developer settings
+	3. On Left side, Under personal access tokens -> Click down arrow -> Click tokens Classic
+	4. In new window -> Click Generate new token -> Click Classic
+	5. U may be prompted for password (Complete this task)
+	6. Add a note: 
+	7. Expiration: Select No Expiration
+	8. Do no other changes and scroll down -> Click generate token
+	9. Copy the PAT and mail/whatsApp to yourself 
