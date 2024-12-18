@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e9ecef;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+        .certificate {
+            width: 33cm; /* Adjusted to fit within A4 size */
+            height: 28cm; /* Adjusted to fit within A4 size */
+            border: 15px solid #0066cc;
+            padding: 20px; /* Reduced padding */
+            background: #fff;
+            position: relative;
+            box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+            background-image: url('file:///C:/Users/Administrator/Documents/learning/python/python_samsung/certificate_project/certificate_bg.jpg');
+            background-size: cover;
+            text-align: center;
+            overflow: hidden; /* Ensures no content overflows */
+        }
+        .certificate .header {
+            text-align: center;
+            margin-bottom: 20px; /* Adjusted margin */
+        }
+        .certificate .header img {
+            max-width: 200px; /* Reduced logo size */
+        }
+        .certificate h1 {
+            font-size: 3em; /* Reduced font size */
+            color: #0066cc;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .certificate h3 {
+            font-size: 1.8em; /* Adjusted font size */
+            margin: 10px 0;
+        }
+        .certificate p {
+            font-size: 1.8em; /* Adjusted font size */
+            margin: 10px 0;
+        }
+        .certificate .details {
+            margin: 10px 0; /* Reduced margin */
+        }
+        .certificate .details strong {
+            font-size: 2.5em; /* Slightly reduced name font size */
+            color: #333;
+        }
+        .certificate .footer {
+            position: absolute;
+            bottom: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; /* Adjusted padding */
+        }
+        .certificate .footer .date {
+            font-size: 1.3em; /* Reduced font size */
+            text-align: left;
+            width: 50%;
+        }
+        .certificate .footer .signature {
+            text-align: right;
+            width: 50%;
+        }
+        .certificate .footer img {
+            max-width: 150px; /* Reduced signature image size */
+            margin-right: 20px;
+        }
+        .certificate .footer h5 {
+            font-size: 1.3em; /* Reduced font size */
+            color: #555;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="file:///C:/Users/Administrator/Documents/learning/python/python_samsung/certificate_project/mtd.png" alt="Organization Logo"> <!-- Organization Logo -->
+            <p style="color:blue; font-weight:bold;">www.mtdn.co.in</p>
+        </div>
+
+        <!-- Certificate Title -->
+        <h1>Certificate of Achievement</h1>
+        <h3>This certifies that</h3>
+
+        <!-- Recipient Details -->
+        <div class="details">
+            <p><strong>ADITYA S KUDE</strong></p>
+            <p>(USN: <strong>2KE23CS007</strong>)</p>
+        </div>
+
+        <!-- Completion Information -->
+        <p>Has successfully completed the training and workshop of 10 days held in December 2024.</p>
+        <p>The student completed the CRUD operations project that involved:</p>
+        <h4 style="color: #0066cc;">  Front-end, Django as back-end, and MySQL as the database.</h4>
+
+        <!-- Footer Section -->
+        <div class="footer">
+            <div class="date">
+                <p>Date: <strong>18 December 2024</strong></p>
+            </div>
+            <div class="signature">
+                <img src="file:///C:/Users/Administrator/Documents/learning/python/python_samsung/certificate_project/my_sign.jpg" alt="Signature">
+                <h5>Nithin Neelakanta Rao [MTD Founder]</h5>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
