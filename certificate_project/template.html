@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Certificate of Participation</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            background-color: #f7f7f7;
+            padding: 30px;
+        }
+        .certificate {
+            width: 80%;
+            margin: auto;
+            padding: 40px;
+            border: 5px solid #4CAF50;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+        }
+        .certificate h1 {
+            color: #4CAF50;
+            font-size: 36px;
+        }
+        .certificate p {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        .name {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333;
+        }
+        .usn {
+            font-size: 22px;
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="certificate">
+        <h1>Certificate of Achievement</h1>
+        <p>This is to certify that</p>
+        <p class="name">{{ name }}</p>
+        <p>with USN</p>
+        <p class="usn">{{ usn }}</p>
+        <p>has successfully participated in the workshop.</p>
+    </div>
+</body>
+</html>
